@@ -2,13 +2,13 @@
 
 int main(void)
 {
-	int num = 0;
-	int i = 0;
-	int c = 0;
+	int num;
+	int i;
+	int c;
 
 	for (num = 0; num < 5; num++)
 	{
-		for (i = num; i <= 4 ; i++)
+		for (i = num; i <= 5-1 ; i++)
 		{
 			printf(" ");
 		}
@@ -16,7 +16,7 @@ int main(void)
 		{
 			printf("*");
 		}
-		printf(" \n");
+		printf("\n");
 	}
 	return 0;
 }
