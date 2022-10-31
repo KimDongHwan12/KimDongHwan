@@ -4,7 +4,7 @@ int main(void)
 {
 	int five[5], i;
 
-	printf("정수를 입력해 주세요 : ");
+	printf("Please input five integers : ");
 
 	for (i = 0; i < 5; i++)
 		scanf_s("%d", &five[i]);
